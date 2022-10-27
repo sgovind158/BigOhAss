@@ -74,30 +74,23 @@ class Bike extends Person {
 
   
 
-  // 3
 
-// Creating one Bike class and inherit by person
-class Bike extends Person {
-    // #bikeName is private
-    #bikeName;
-    constructor(person, bikeName) {
-      super(person);
-      this.#bikeName = bikeName;
-    }
+
   
-    // This method print bike name
-    printBikeName() {
-      console.log(`This is my bike name ${this.#bikeName}`);
-    }
-  
-    //This method print manufacturing details
-    manufacturing() {
-      console.log("It is used and imported");
-    }
-  
-    //This method print fuel type
-    fuel() {
-      console.log("It runs on petrol");
-    }
-  }
-  
+// Here we create one person obj 
+let person = new Person("Sourabh");
+console.log(person.getName);
+
+// Here we create one car obj
+let car = new Car(person.name, "Honda_accord");
+console.log(car);
+ car.printCarName()
+car.manufacturing()
+ car.fuel()
+
+ //Here we create one bike obj 
+let bike = new Bike(person.name, "Pulsur");
+// console.log(bike);
+bike.printBikeName();
+bike.manufacturing();
+bike.fuel();
