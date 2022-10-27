@@ -79,16 +79,16 @@ class Bike extends Person {
   
 // Here we create one person obj 
 let person = new Person("Sourabh");
-console.log(person.getName);
+// console.log(person);
 
 // Here we create one car obj
 let car = new Car(person.name, "Honda_accord");
-console.log(car);
- car.printCarName()
-car.manufacturing()
- car.fuel()
+// console.log(car);
+//  car.printCarName()
+// car.manufacturing()
+//  car.fuel()
 
- //Here we create one bike obj 
+//  //Here we create one bike obj 
 let bike = new Bike(person.name, "Pulsur");
 // console.log(bike);
 bike.printBikeName();
