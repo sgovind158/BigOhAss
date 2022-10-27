@@ -41,3 +41,63 @@ class Car extends Person {
       console.log("It runs on diesel");
     }
   }
+
+
+
+  
+// 3
+
+// Creating one Bike class and inherit by person
+class Bike extends Person {
+    // #bikeName is private
+    #bikeName;
+    constructor(person, bikeName) {
+      super(person);
+      this.#bikeName = bikeName;
+    }
+  
+    // This method print bike name
+    printBikeName() {
+      console.log(`This is my bike name ${this.#bikeName}`);
+    }
+  
+    //This method print manufacturing details
+    manufacturing() {
+      console.log("It is used and imported");
+    }
+  
+    //This method print fuel type
+    fuel() {
+      console.log("It runs on petrol");
+    }
+  }
+
+  
+
+  // 3
+
+// Creating one Bike class and inherit by person
+class Bike extends Person {
+    // #bikeName is private
+    #bikeName;
+    constructor(person, bikeName) {
+      super(person);
+      this.#bikeName = bikeName;
+    }
+  
+    // This method print bike name
+    printBikeName() {
+      console.log(`This is my bike name ${this.#bikeName}`);
+    }
+  
+    //This method print manufacturing details
+    manufacturing() {
+      console.log("It is used and imported");
+    }
+  
+    //This method print fuel type
+    fuel() {
+      console.log("It runs on petrol");
+    }
+  }
+  
