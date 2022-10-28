@@ -55,7 +55,7 @@ class Bike extends Person {
       super(person);
       this.#bikeName = bikeName;
     }
-   carObj = new Car();
+   
 
     // This method print bike name
     printBikeName() {
