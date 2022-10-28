@@ -1,5 +1,7 @@
 # BigOhAss
 
+## Notes Link :-
+ <a href="https://www.geeksforgeeks.org/oops-object-oriented-design/">Notes Link</a>
 ## Person Class
 
 <img src="https://github.com/sgovind158/BigOhAss/blob/main/Images/personClass.png?raw=true"/>
